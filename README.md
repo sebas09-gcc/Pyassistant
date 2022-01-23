@@ -1,9 +1,9 @@
 # Pyassistant
 To test the program install the following libraries:
-pip install pyttsx3
-pip install pywhatkit
-pip install speech_recognition
-pip install pyaudio[*]
+pip install pyttsx3\n
+pip install pywhatkit\n
+pip install speech_recognition\n
+pip install pyaudio[ * ] \n
 
 
 [*]Note:
