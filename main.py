@@ -1,4 +1,4 @@
-# Proyect : Python Assistant
+# Proyect : Python Assistant (PyAssistant)
 # Author : Fabricio Sebastian Davila
 # Date : 23/01/2022
 
@@ -6,12 +6,12 @@ import pyttsx3
 import pywhatkit
 import speech_recognition as sr
 
-name = "julio"
+name = "julia"
 engine = pyttsx3.init()
 voices = engine.getProperty("voices")
 newVoiceRate = 145
 engine.setProperty('rate', newVoiceRate)
-engine.setProperty("voices", voices[2].id)
+engine.setProperty("voices", voices[0].id)
 
 
 def talk(some_text):
@@ -33,7 +33,7 @@ def listen():
     return rec
 
 
-def run_roboto():
+def run_julia():
     while True:
         try:
             rec = listen()
@@ -55,4 +55,4 @@ def run_roboto():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    run_roboto()
+    run_julia()
