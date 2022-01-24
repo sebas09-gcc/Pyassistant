@@ -1,5 +1,11 @@
 # Pyassistant
-To test the program install the following libraries:
+Features: Play a song on Youtube
+
+Language: Spanish
+
+Input example: "Julio reproduce Coldplay Adventure Of A Lifetime"
+
+#to test the program install the following libraries:
 
 pip install pyttsx3
 
